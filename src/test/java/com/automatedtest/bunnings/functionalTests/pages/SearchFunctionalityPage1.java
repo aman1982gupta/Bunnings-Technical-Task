@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class SearchFunctionalityPage extends BasePage {
+public class SearchFunctionalityPage1 extends BasePage {
 
     private static final String LOGIN_URL = "https://www.bunnings.com.au";
 
@@ -30,7 +30,7 @@ public class SearchFunctionalityPage extends BasePage {
     @FindBy(className = "search-container_history_clear")
     private WebElement clearSearch;
 
-    public SearchFunctionalityPage() {
+    public SearchFunctionalityPage1() {
         PageFactory.initElements(driver, this);
     }
 
