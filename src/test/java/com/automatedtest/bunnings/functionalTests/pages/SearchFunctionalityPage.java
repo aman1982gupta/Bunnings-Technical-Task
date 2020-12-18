@@ -70,8 +70,7 @@ public class SearchFunctionalityPage extends BasePage {
 
     public void verifyResultText(String searchItem) {
         wait.forLoading(20);
-        System.out.println("Result is");
-        String resultText = resultCountText.getText();
+                String resultText = resultCountText.getText();
         assertEquals(true, resultText.matches("[*0-9]+ results for " + searchItem));
     }
 
