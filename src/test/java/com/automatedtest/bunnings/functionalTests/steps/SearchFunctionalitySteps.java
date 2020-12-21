@@ -44,6 +44,7 @@ public class SearchFunctionalitySteps {
 
     @When("^User clicks on search button$")
     public void user_clicks_on_search_button() throws Throwable {
+        System.out.println("test");
         this.searchFunctionalityPage.searchButtonClick();
     }
 
